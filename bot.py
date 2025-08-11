@@ -28,10 +28,10 @@ AUTO_REQUIREMENTS, AUTO_BUDGET, AUTO_CITY, AUTO_NAME, AUTO_CONTACT = range(5)
 ADMIN_IDS = [407994120, 6980080944]
 
 MENU_BUTTONS = [
-    [InlineKeyboardButton("\ud83d\udce9 Оставить заявку", callback_data="request")],
-    [InlineKeyboardButton("\u2753 Задать вопрос", callback_data="question")],
-    [InlineKeyboardButton("\u2b50 Оставить отзыв", callback_data="feedback")],
-    [InlineKeyboardButton("\ud83d\udcca Рассчитать стоимость авто", callback_data="calculate")],
+    [InlineKeyboardButton("📊 Рассчитать стоимость авто", callback_data="calculate")],
+    [InlineKeyboardButton("📩 Оставить заявку", callback_data="request")],
+    [InlineKeyboardButton("❓ Задать вопрос", callback_data="question")],
+    [InlineKeyboardButton("⭐ Оставить отзыв", callback_data="feedback")],
 ]
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
